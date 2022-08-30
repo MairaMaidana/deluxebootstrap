@@ -1,174 +1,288 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-       crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo3.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilo3.css" />
     <title>Deluxe Desayunos</title>
-
-</head>
-<body id="body">
-    
-  <header class="navbar navbar-expand-lg container-fluid">
-      <nav class="navbar navbar-expand-lg ">
+  </head>
+  <body id="body">
+    <header class="navbar navbar-expand-lg container-fluid">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-           <a class="navbar-brand " href="index.html"><img class="img"  src="/imagen/deluxe2.png" alt="logo" width="130px" height="130px"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              class="img"
+              src="/imagen/deluxe2.png"
+              alt="logo"
+              width="130px"
+              height="130px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav fw-bold ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/pages/bandejaspersonalizadas.html">Bandejas Personalizadas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="/pages/Boxsalados.html">Box Salados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="/pages/nuestrasbandejas.html">Nuestras Bandejas </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fw-bold ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/bandejaspersonalizadas.html"
+                  >Bandejas Personalizadas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Boxsalados.html"
+                  >Box Salados</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/nuestrasbandejas.html"
+                  >Nuestras Bandejas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <div class="row py-5">
+        <div class="col-6">
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+
+        <div
+          id="carouselExampleControls1"
+          class="carousel slide col-6 mb-5 tamano"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active">
+              <img
+                src="/imagen/bpersonalizada2.JPG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/imagen/bpersonalizada.JPG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/imagen/bpersonalizada3.JPG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls1"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls1"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 
-   </nav>
-    
-
-  </header>
-
-   
- <main class="container-fluid">
-    <div class="row py-5">
-       <p class="col-6 "> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-       </p>
- 
-       <div  id="carouselExampleControls1" class="carousel slide col-6 mb-5 tamano" data-bs-ride="carousel">
-         <div class="carousel-inner h-100">
-           <div class="carousel-item active">
-             <img src="/imagen/bpersonalizada2.JPG" class="d-block w-100" alt="...">
-           </div>
-           <div class="carousel-item">
-             <img src="/imagen/bpersonalizada.JPG" class="d-block w-100" alt="...">
-           </div>
-           <div class="carousel-item">
-             <img src="/imagen/bpersonalizada3.JPG" class="d-block w-100" alt="...">
-           </div>
-         </div>
-           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev" >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-           </button>
-           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-           </button>
-          </div>
-   </div>
-    <section class="container-fluid">
-      <div class="row ">
-         <div id="carouselExampleControls" class="carousel slide col-6 mb-5  tamano " data-bs-ride="carousel">
+      <section class="container-fluid">
+        <div class="row">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide col-6 mb-5 tamano"
+            data-bs-ride="carousel"
+          >
             <div class="carousel-inner h-100">
-               <div class="carousel-item active">
-                 <img src="/imagen/entrega1.jpg" class="d-blo" alt="...">
-               </div>
-               <div class="carousel-item">
-                  <img src="/imagen/entrega2.png" class="d-block w-25" alt="...">
-               </div>
-                <div class="carousel-item">
-                  <img src="/imagen/bpersonalizada3.JPG" class="d-block w-25" alt="...">
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
-                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Next</span>
+              <div class="carousel-item active">
+                <img
+                  src="/imagen/entrega1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/imagen/entrega2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/imagen/bpersonalizada3.JPG"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
               </button>
-           </div>
-           
-               <p class="col-6">
-                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                 ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-               </p>
-            
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
         </div>
-     </div>
-   </section>
-  </main>
- 
+      </section>
+    </main>
 
+    <footer id="footer">
+      <div>
+        <h4 class="redes">Redes sociales</h4>
+        <p class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ff9300"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        </p>
+        <a
+          class="redes"
+          href="https://www.instagram.com/deluxedesayunos1/"
+          target="_blank"
+          >Instagram</a
+        >
+        <p class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-facebook"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ff9300"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+            />
+          </svg>
+        </p>
+        <a
+          class="redes"
+          href="https://www.facebook.com/DeluxeDesayunosUnicos"
+          target="_blank"
+          >Facebook</a
+        >
+      </div>
 
+      <ul class="navegacion">
+        <h4>Navegacion</h4>
+        <li>
+          <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="pages/contacto.html">Contacto</a>
+        </li>
+        <li>
+          <a href="pages/bandejaspersonalizadas.html"
+            >Bandejas personalizadas</a
+          >
+        </li>
+        <li>
+          <a href="pages/Boxsalados.html">Box salados</a>
+        </li>
+        <li>
+          <a href="pages/nuestrasbandejas.html">Nuestras bandejas</a>
+        </li>
+      </ul>
+    </footer>
 
-
- <footer id="footer">
-     <div>
-         <h4 class="redes">Redes sociales</h4>
-         <p class="logo">
-             <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="4" y="4" width="16" height="16" rx="4" />
-                <circle cx="12" cy="12" r="3" />
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-             </svg>
-         </p>
-         <a class="redes" href="https://www.instagram.com/deluxedesayunos1/" target="_blank">Instagram</a>
-         <p class="logo">
-             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-             </svg>
-         </p>
-         <a class="redes" href="https://www.facebook.com/DeluxeDesayunosUnicos" target="_blank">Facebook</a>
-     </div>
-
-   
-    
-    
-     <ul class="navegacion">
-         <h4>Navegacion</h4>
-         <li>
-            <a href="../index.html">Inicio</a>
-         </li>
-         <li>
-            <a href="pages/contacto.html">Contacto</a>
-         </li>
-         <li>
-            <a href="pages/bandejaspersonalizadas.html">Bandejas personalizadas</a>
-         </li>
-         <li>
-            <a href="pages/Boxsalados.html">Box salados</a>
-         </li>
-         <li>
-             <a href="pages/nuestrasbandejas.html">Nuestras bandejas</a>
-         </li>    
-     </ul>
- </footer>
-
-   
- 
-
-
-  <!-- JavaScript Bundle with Popper -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
-   integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-
-</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
