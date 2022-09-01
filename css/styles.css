@@ -1,0 +1,48 @@
+#body {
+  font-size: 20px;
+  color: #000000;
+  background-image: url(/imagen/deluxe2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
+  width: 100%;
+}
+header div a .img {
+  border-radius: 70px;
+}
+
+@media screen and (min-width: 720px) {
+  header {
+    height: 150px;
+  }
+}
+main {
+  color: rgb(178, 131, 21);
+}
+main section {
+  color: rgb(178, 131, 21);
+}
+main .row .tamano {
+  height: 500px;
+  width: 500px;
+}
+
+#footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(178, 131, 21);
+  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
+}
+#footer div a {
+  text-decoration: none;
+}
+#footer ul li {
+  list-style: none;
+}
+#footer ul li a {
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */

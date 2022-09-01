@@ -1,0 +1,24 @@
+#footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: $colorTexto1;
+    background-image: $ColorFondoPrimero;
+    div{
+        
+        a{
+            text-decoration: none
+        }
+    
+    }
+    ul{
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+ 

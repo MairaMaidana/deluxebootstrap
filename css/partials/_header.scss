@@ -1,0 +1,19 @@
+header{
+    background-image: $ColorFondoPrimero ;
+    width: 100%;
+     div{
+        a{
+            .img{
+                border-radius: 70px;
+
+            }
+        }
+     }
+}
+
+@media screen and (min-width: 720px){
+    header {
+        height: 150px;
+    }
+    
+}
