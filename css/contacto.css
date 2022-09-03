@@ -1,0 +1,68 @@
+#body{
+    font-size: 20px;
+    color: #000;
+
+}
+header{
+    background-image: linear-gradient(
+        rgb(206, 40, 76),
+        rgb(228, 90, 136),
+        rgb(238, 163, 179)
+      );
+      width: 100%;
+}
+ .img {
+  border-radius: 70px;
+}
+/*fin barra*/
+/*comienzo formulario*/
+.btn{
+    background-color: rgb(251, 164, 242);
+    text-align: center;
+}
+.titulo{
+    margin: 20px;
+    text-align: center;
+    border: 03px dotted  rgb(235, 149, 224);
+}
+.map{
+    margin: 20px;
+    text-align: center;
+    border: 03px solid rgb(235, 149, 224);
+    border-radius: 03%;
+}
+
+
+/*fin contenido*/
+/*comienzo barra*/
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(
+        rgb(206, 40, 76),
+        rgb(228, 90, 136),
+        rgb(238, 163, 179)
+      );
+
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    line-height: 2;
+}
+.icons{
+    text-align: center;
+}
+@media  screen and (min-width: 720px) {
+    .map{
+        width: 50%;
+        height: 50%;
+        border: none;
+
+    }
+   
+}

@@ -4,101 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link reel="stylesheet" href="/css/estilo.css">
-    <title>Contacto</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     <link rel="stylesheet" href="../css/contacto.css">
+         <title>Contacto</title>
 </head>
-<body>
-    <ul>
-        <li>
-            <a href="../index.html">Inicio</a>
-        </li>
-        <li>
-            <a href="bandejaspersonalizadas.html">Bandejas personalizadas</a>
-        </li>
-        <li>
-            <a href="Boxsalados.html">Box salados</a>
-        </li>
-        <li>
-            <a href="nuestrasbandejas.html">Nuestras bandejas</a>
-        </li>
-       
-<header>
- <h1>Formulario para contactarnos</h1>
-</header>
+<body id="body">
+    <header class="navbar-expand-lg container-fluid ">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"
+              ><img
+                class="img"
+                src="../imagen/deluxe2.png"
+                alt="logo"
+                width="130px"
+                height="130px"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav fw-bold ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="./pages/bandejaspersonalizadas.html"
+                    >Bandejas Personalizadas</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/Boxsalados.html"
+                    >Box Salados</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/nuestrasbandejas.html"
+                    >Nuestras Bandejas
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <div class="titulo">
+    <h1>Contactanos para mas Informacion...</h1>
+  </div>
 
-<main>
- <form>
-   <fieldset>
-     <legend>Datos personales</legend>
-     <label for="nombre">Nombre</label>
-     <input  id="nombre" type="text" placeholder="Tu Nombre">
-     <br/>
-     <label for="apellido">Apellido</label>
-     <input id="apellido" type="text" placeholder="Tu apellido">
-     <br/>
-     <label>Selecciona tu pais</label>
-       <select>
-         <option>Argentina</option>
-         <option>Venezuela</option>
-         <option>Mexico</option>
-         <option>Otros</option>
-        </select>
-     <br/>
-     <label for="Mail">Mail</label>
-     <input id="Mail" type="mail" placeholder="Tu mail">
-     <br/>
-     <label for="Telefono">Telefono</label>
-     <input id="Telefono" type="tel" placeholder="number">
-     <br/>
-     <label for="comentarios">Comentarios</label>
-     <textarea id"comentarios" placeholder="Comentarios"></textarea>
-     <br/>
-   </fieldset>
-
- </form>
+<main class="container">
+    <div class="row">
+        <div class="col-md-5">
+           <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+             <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="Tu Nombre">
+           </div>
+           <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu Apellido">
+           </div>
+           <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-label">Pais de Residencia</label>
+             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Seleccione su Pais">
+             <datalist id="datalistOptions">
+                 <option value="Venezuela">
+                 <option value="Argentina">
+                 <option value="Paraguay">
+                 <option value="Uruguay">
+                 <option value="Otros">
+              </datalist>
+           </div>
+           <div class="mb-2">
+             <label for="exampleFormControlInput1" class="form-label">Mail</label>
+             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+           </div>
+           <div class="mb-2">
+              <label for="exampleFormControlInput1" class="form-label">Nro de Telefono</label>
+             <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Tu Telefono">
+           </div>
+           <div class="mb-2">
+             <label for="exampleFormControlTextarea1" class="form-label">Comentanos tus dudas </label>
+             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button class="btn" type="submit">Enviar</button>
+       </div>
+       <section class="map col-md-7">
+         <h2>Ubicacion</h2>
+         <iframe class="mapT" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.181861625416!2d-58.3857908849169!3d-34.70059268043441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd26255ea561%3A0x75676e53930f4845!2sJuncal%201050%2C%20B1824IOY%20Lan%C3%BAs%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1662157355039!5m2!1ses!2sar" width="400" height="300" 
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
 </main>
-<section>
-    <p>
-       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="64" height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-             <line x1="18" y1="6" x2="18" y2="6.01" />
-             <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-             <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-             <line x1="9" y1="4" x2="9" y2="17" />
-             <line x1="15" y1="15" x2="15" y2="20" />
-       </svg>
-    </p>
-    <p>Lanus Este</p>
-    
-</section>
+
+
 
 <footer>
-    <div>
-         <h3>Redes sociales</h3>
-         <p>
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                 <rect x="4" y="4" width="16" height="16" rx="4" />
-                 <circle cx="12" cy="12" r="3" />
-                 <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-              </svg>
-         </p>
-         <a href="https://www.instagram.com/deluxedesayunos1/" target="_blank">Instagram</a>
-         <p>
-             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                 <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-             </svg>
-         </p>
-         
-         
-         
-         <a href="https://www.facebook.com/DeluxeDesayunosUnicos" target="_blank">facebook</a>
-     </div>
+    <div class="redes">
+        <h3>Redes Sociales</h3>
+        <div class="icons">
+          <a href="https://www.instagram.com/deluxedesayunos1/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2xl"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/DeluxeDesayunosUnicos"
+            target="_blank"
+            ><i class="fa-brands fa-square-facebook fa-2xl"></i
+          ></a>
+        </div>
+    </div>
     
      
-      <h3>Navegacion</h3>
-      <ul>
+      
+    <ul>
+         <h3>Navegacion</h3>
           <li>
              <a href="../index.html">Inicio</a>
           </li>
@@ -114,13 +152,14 @@
           <li>
               <a href="pages/nuestrasbandejas.html">Nuestras bandejas</a>
           </li>    
-     </ul>
+    </ul>
 
 </footer>
 
 
 
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
