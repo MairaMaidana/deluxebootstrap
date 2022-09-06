@@ -16,9 +16,10 @@ header{
 }
 /*fin barra*/
 /*comienzo formulario*/
-.btn{
+.boton{
     background-color: rgb(251, 164, 242);
-    text-align: center;
+    border-radius: 05px ;
+    margin-left: 100px ;
 }
 .titulo{
     margin: 20px;
@@ -30,6 +31,12 @@ header{
     text-align: center;
     border: 03px solid rgb(235, 149, 224);
     border-radius: 03%;
+    height: 100%;
+    width: 100%;
+}
+.mapT{
+    height: 90%;
+    width: 90%;
 }
 
 
@@ -63,6 +70,9 @@ footer ul li a{
         height: 50%;
         border: none;
 
+    }
+    .container{
+        margin-bottom: 100px;
     }
    
 }
