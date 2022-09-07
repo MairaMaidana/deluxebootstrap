@@ -1,9 +1,12 @@
 #body {
   font-size: 20px;
-  color: #000000;
-  background-image: url(/imagen/deluxe2.png);
+  background-image: url(/imagen/deluxe3.png);
   background-size: cover;
   background-position: center;
+}
+
+.body {
+  font-size: 20px;
 }
 
 header {
@@ -14,27 +17,47 @@ header div a .img {
   border-radius: 70px;
 }
 
+/*bandejasp*/
+.headerGaleria {
+  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
+}
+
 @media screen and (min-width: 720px) {
   header {
     height: 150px;
   }
 }
 main {
-  color: rgb(178, 131, 21);
+  color: rgb(220, 200, 18);
 }
 main section {
-  color: rgb(178, 131, 21);
+  color: rgb(220, 200, 18);
 }
 main .row .tamano {
   height: 500px;
   width: 500px;
 }
 
+.mainGaleria {
+  padding: 10px;
+}
+.mainGaleria .card-body h5 {
+  padding: 10px;
+  border: 1px solid rgb(181, 23, 146);
+  border-radius: 9px;
+  text-align: center;
+}
+.mainGaleria .botonn {
+  text-align: center;
+  border-radius: 8%;
+  border: 2px solid rgb(181, 23, 146);
+}
+
 #footer {
   padding: 50px;
   display: flex;
   justify-content: space-around;
-  color: rgb(178, 131, 21);
+  color: #000;
   background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
 }
 #footer div a {
@@ -44,5 +67,22 @@ main .row .tamano {
   list-style: none;
 }
 #footer ul li a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
+}
+.footer div a {
+  text-decoration: none;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
   text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

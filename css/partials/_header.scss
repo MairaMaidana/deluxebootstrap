@@ -1,14 +1,18 @@
 header{
-    background-image: $ColorFondoPrimero ;
+    background-image: map-get( $color , colorPrimario) ;
     width: 100%;
      div{
         a{
             .img{
-                border-radius: 70px;
+                border-radius: map-get($border, borderRadius );
 
             }
         }
      }
+}
+/*bandejasp*/
+.headerGaleria{
+    background-image: map-get($color , colorPrimario );
 }
 
 @media screen and (min-width: 720px){

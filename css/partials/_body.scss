@@ -1,7 +1,9 @@
 #body {
-    font-size: 20px;
-    color: $colorTexto2;
+    font-size: map-get($fonts , fontsPrincipal);
     background-image: url(/imagen/deluxe3.png);
     background-size: cover;
     background-position: center;
+}
+.body{
+    font-size: 20px;
 }
