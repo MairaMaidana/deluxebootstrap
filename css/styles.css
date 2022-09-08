@@ -1,6 +1,6 @@
 #body {
   font-size: 20px;
-  background-image: url(/imagen/deluxe3.png);
+  background-image: url(/imagen/deluxe2.png);
   background-size: cover;
   background-position: center;
 }
@@ -9,17 +9,13 @@
   font-size: 20px;
 }
 
-header {
+/*headerprincipal*/
+.header {
   background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
   width: 100%;
 }
-header div a .img {
+.header .img {
   border-radius: 70px;
-}
-
-/*bandejasp*/
-.headerGaleria {
-  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
 }
 
 @media screen and (min-width: 720px) {
@@ -27,47 +23,57 @@ header div a .img {
     height: 150px;
   }
 }
-main {
+/*Maininicio*/
+.mainInicio {
   color: rgb(220, 200, 18);
 }
-main section {
+.mainInicio section {
   color: rgb(220, 200, 18);
 }
-main .row .tamano {
+.mainInicio .row .tamano {
   height: 500px;
   width: 500px;
 }
 
-.mainGaleria {
-  padding: 10px;
+/*mainbandejaspersonalizadas*/
+.mainBandejasp {
+  padding: 50px;
 }
-.mainGaleria .card-body h5 {
+.mainBandejasp .card-body h5 {
   padding: 10px;
   border: 1px solid rgb(181, 23, 146);
   border-radius: 9px;
   text-align: center;
 }
-.mainGaleria .botonn {
+.mainBandejasp .botonn {
   text-align: center;
   border-radius: 8%;
   border: 2px solid rgb(181, 23, 146);
 }
 
-#footer {
-  padding: 50px;
-  display: flex;
-  justify-content: space-around;
-  color: #000;
-  background-image: linear-gradient(rgb(206, 40, 76), rgb(228, 90, 136), rgb(238, 163, 179));
+/*maincontacto*/
+.titulo {
+  margin: 20px;
+  text-align: center;
+  border: 3px dotted rgb(235, 149, 224);
 }
-#footer div a {
-  text-decoration: none;
+
+.mainContacto .boton {
+  background-color: rgb(251, 164, 242);
+  border-radius: 5px;
+  margin-left: 100px;
 }
-#footer ul li {
-  list-style: none;
+.mainContacto .map {
+  margin: 20px;
+  text-align: center;
+  border: 3px solid rgb(235, 149, 224);
+  border-radius: 3%;
+  height: 100%;
+  width: 100%;
 }
-#footer ul li a {
-  text-decoration: none;
+.mainContacto .map .mapT {
+  height: 90%;
+  width: 90%;
 }
 
 .footer {

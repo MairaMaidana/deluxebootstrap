@@ -4,97 +4,335 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link reel="stylesheet" href="/css/estilo.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name="description" content="Pagina de bandejas decoradas con globos y productos salados ">
+    <meta name="keywords" content="BANDEJAS DECORADAS , REGALOS , DESAYUNOS , MERIENDAS , PICADAS ">
     <title>Box salados</title>
 </head>
-<body> 
- <header>
-    <ul>
+<body class="body"> 
+    <header class="container-fluid header ">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              class="img"
+              src="/imagen/deluxe2.png"
+              width="130px"
+              height="130px"
+              alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fw-bold ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/bandejaspersonalizadas.html"
+                  >Bandejas personalizadas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Boxsalados.html">Box Salados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/nuestrasbandejas.html"
+                  >Nuestras Bandejas</a
+                >
+              </li>
+            </ul>
+          </div>
+       </nav>
+  </header>
+
+
+
+  <main class="mainBandejasp">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 1</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Minitorta</a></li>
+                <li><a class="dropdown-item">Jugo de Naranja</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Alfajor Triple x2u</a></li>
+                <li><a class="dropdown-item">Kinder Bueno</a></li>
+                <li><a class="dropdown-item">Ferrero rocher x3</a></li>
+                <li><a class="dropdown-item">Bon o Bon x2u</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x2u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 2</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Jugo & Yogurt</a></li>
+                <li><a class="dropdown-item">Granola x150grs</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Bandeja de alfajores</a></li>
+                <li><a class="dropdown-item">Tostadas</a></li>
+                <li><a class="dropdown-item">Queso crema</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x4u</a></li>
+                <li><a class="dropdown-item">Bon o Bon x3u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 3</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Jugo & Yogurt</a></li>
+                <li><a class="dropdown-item">Granola x150grs</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Bandeja de alfajores</a></li>
+                <li><a class="dropdown-item">Tostadas</a></li>
+                <li><a class="dropdown-item">Queso crema</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x4u</a></li>
+                <li><a class="dropdown-item">Bon o Bon x3u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 4</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Jugo & Yogurt</a></li>
+                <li><a class="dropdown-item">Granola x150grs</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Bandeja de alfajores</a></li>
+                <li><a class="dropdown-item">Tostadas</a></li>
+                <li><a class="dropdown-item">Queso crema</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x4u</a></li>
+                <li><a class="dropdown-item">Bon o Bon x3u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 5</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Jugo & Yogurt</a></li>
+                <li><a class="dropdown-item">Granola x150grs</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Bandeja de alfajores</a></li>
+                <li><a class="dropdown-item">Tostadas</a></li>
+                <li><a class="dropdown-item">Queso crema</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x4u</a></li>
+                <li><a class="dropdown-item">Bon o Bon x3u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  mb-3">
+          <div class="card" style="width: 100%; height: 100%">
+            <img
+              src="/imagen/boxsalado1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body dropdown">
+              <h5 class="card-title">Box Salado 6</h5>
+              <h5 class="card-title">Precio $3000</h5>
+            </div>
+            <div class="botonn">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Descripcion
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Bandeja mediana</a></li>
+                <li><a class="dropdown-item">Jugo & Yogurt</a></li>
+                <li><a class="dropdown-item">Granola x150grs</a></li>
+                <li><a class="dropdown-item">Sanguchitos de JyQ</a></li>
+                <li><a class="dropdown-item">Bandeja de alfajores</a></li>
+                <li><a class="dropdown-item">Tostadas</a></li>
+                <li><a class="dropdown-item">Queso crema</a></li>
+                <li><a class="dropdown-item">Chocolates chicos x4u</a></li>
+                <li><a class="dropdown-item">Bon o Bon x3u</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer ">
+     <div>
+         <h4>Redes sociales</h4>
+          <div class="icons">
+             <a href="https://www.instagram.com/deluxedesayunos1/" target="_blank">
+              <i class="fa-brands fa-instagram fa-2xl"></i
+               ></a>
+             <a
+             href="https://www.facebook.com/DeluxeDesayunosUnicos"
+              target="_blank"
+             ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+         </div>
+      </div>
+
+      
+      <ul>
+        <h4>Navegacion</h4>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
         <li>
-            <a href="../index.html">Inicio</a>
+          <a href="pages/bandejaspersonalizadas.html"
+            >Bandejas personalizadas</a
+          >
         </li>
-        <li>
-            <a href="contacto.html">Contacto</a>
-        </li>
-        <li>
-            <a href="bandejaspersonalizadas.html">Bandejas personalizadas</a>
-        </li>
-        <li>
-            <a href="nuestrasbandejas.html">Nuestras bandejas</a>
-        </li>
-    </ul>
- </header>   
+        <li><a href="pages/Boxsalados.html">Box salados</a></li>
+        <li><a href="pages/nuestrasbandejas.html">Nuestras bandejas</a></li>
+      </ul>
  
-<main>
-    <img src="/imagen/boxsalado.jpg">
-    <ul>
-        <li>Bandeja pequeña</li>
-        <li>Picada para dos personas</li>
-        <li>Vino Alma Mora</li>
-        <li>Copa </li>
-        <li>Ferrero rocher x4</li>
-        <li>Medialunas x2</li>
-        <li>Pan x3u</li>
-        <li>Donuts Bonafide</li>
-    </ul>
-    <img src="/imagen/boxsalado1.jpg">
-    <ul>
-        <li>Bandeja pequeña</li>
-        <li>Picada para dos personas</li>
-        <li>Papas Lays x90grs</li>
-        <li>Bon o bon x3u</li>
-        <li>Cerveza Corona porron</li>
-        <li>Pan x3u</li>
-    </ul>
+  </footer>
 
-</main>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>
+
+ 
 
 
 
-<footer>
-    <div>
-        <h3>Redes sociales</h3>
-        <p>
-             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="4" y="4" width="16" height="16" rx="4" />
-                <circle cx="12" cy="12" r="3" />
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-             </svg>
-        </p>
-        <a  href="https://www.instagram.com/deluxedesayunos1/" target="_blank">Instagram</a>
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-            </svg>
-        </p>
-        
-        
-        
-        <a href="https://www.facebook.com/DeluxeDesayunosUnicos" target="_blank">facebook</a>
-    </div>
-   
-    
-     <h3>Navegacion</h3>
-     <ul>
-         <li>
-            <a href="../index.html">Inicio</a>
-         </li>
-         <li>
-            <a href="pages/contacto.html">Contacto</a>
-         </li>
-         <li>
-            <a href="pages/bandejaspersonalizadas.html">Bandejas personalizadas</a>
-         </li>
-         <li>
-            <a href="pages/Boxsalados.html">Box salados</a>
-         </li>
-         <li>
-             <a href="pages/nuestrasbandejas.html">Nuestras bandejas</a>
-         </li>    
-    </ul>
-</footer>
+
     
 </body>
 </html>

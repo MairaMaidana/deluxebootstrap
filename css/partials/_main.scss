@@ -1,7 +1,8 @@
-main {
+/*Maininicio*/
+.mainInicio {
    
     section{
-        color: map-get($color, colorSecundario );
+      color: map-get($color, colorSecundario );
     }
     color: map-get($color , colorSecundario );
     .row{
@@ -13,8 +14,9 @@ main {
         }
     }
 }
-.mainGaleria{
-    padding: 10px;
+/*mainbandejaspersonalizadas*/
+.mainBandejasp{
+    padding: 50px;
     .card-body {
         h5{
             padding: 10px;
@@ -28,10 +30,38 @@ main {
         border-radius: 08%;
         border: 2px solid rgb(181, 23, 146);
     }
-    
-
-
-    
 }
+
+
+/*maincontacto*/
+.titulo{
+    margin: 20px;
+    text-align: center;
+    border: 03px dotted  rgb(235, 149, 224);
+}
+.mainContacto{
+    .boton{
+        background-color: rgb(251, 164, 242);
+        border-radius: 05px ;
+        margin-left: 100px ;
+    }
+    .map{
+        margin: 20px;
+        text-align: center;
+        border: 03px solid rgb(235, 149, 224);
+        border-radius: 03%;
+        height: 100%;
+        width: 100%;
+        .mapT{
+            height: 90%;
+            width: 90%;
+        }
+    }
+}
+
+
+
+
+
 
   
