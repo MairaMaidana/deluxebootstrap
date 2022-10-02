@@ -19,6 +19,9 @@
   }
 }
 /*Maininicio*/
+.mainInicio .botonn-w {
+  background-color: aqua;
+}
 .mainInicio .row .tamano {
   height: 500px;
   width: 500px;
@@ -35,21 +38,6 @@
 .mainBandejasp .card {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.mainBandejasp .card .capa {
-  font-weight: bold;
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  background-color: rgba(235, 149, 224, 0.6);
-  transition: all 500ms ease-out;
-  opacity: 0;
-  visibility: hidden;
-}
-.mainBandejasp .card .capa h5 {
-  padding: 10px;
-  margin-left: 20px;
 }
 .mainBandejasp .card-body h5 {
   padding: 20px;
