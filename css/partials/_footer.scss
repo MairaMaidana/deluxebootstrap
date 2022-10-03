@@ -5,17 +5,20 @@
     color: #000;
     background-image: map-get( $color , colorPrimario );
     div{
-        
         a{
-            text-decoration: none
+            text-decoration: none;
+            color: #000;
+            
         }
     
     }
-    ul{
+    ul{ 
         li{
             list-style: none;
             a{
                 text-decoration: none;
+                color: #000;
+                font-weight: bold;
             }
         }
     }
