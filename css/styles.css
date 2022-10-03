@@ -48,6 +48,26 @@
 .mainBandejasp {
   padding: 50px;
 }
+.mainBandejasp .botonn-w {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(102, 230, 11);
+  text-align: center;
+  border-radius: 60px;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgb(18, 158, 11);
+  z-index: 100;
+}
+.mainBandejasp .botonn-w a {
+  color: rgba(0, 0, 0, 0.649);
+}
+.mainBandejasp .botonn-w:hover {
+  background-color: chartreuse;
+}
 .mainBandejasp .card:hover > .capa {
   opacity: 1;
   visibility: visible;
@@ -95,6 +115,26 @@
   padding: 10px;
 }
 
+.mainContacto .botonn-w {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(102, 230, 11);
+  text-align: center;
+  border-radius: 60px;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgb(18, 158, 11);
+  z-index: 100;
+}
+.mainContacto .botonn-w a {
+  color: rgba(0, 0, 0, 0.649);
+}
+.mainContacto .botonn-w:hover {
+  background-color: chartreuse;
+}
 .mainContacto .boton {
   background-color: rgb(251, 164, 242);
   border-radius: 5px;

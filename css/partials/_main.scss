@@ -37,6 +37,27 @@
 /*mainbandejaspersonalizadas*/
 .mainBandejasp{
     padding: 50px;
+    .botonn-w{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background-color: rgb(102, 230, 11);
+        text-align: center;
+        border-radius: 60px;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgb(18, 158, 11);
+        z-index: 100;
+        a{
+            color: rgba(0, 0, 0, 0.649);
+        }
+    }
+    .botonn-w:hover{
+        background-color: chartreuse;
+    }
+   
     .card:hover>.capa{
         opacity: 1;
         visibility: visible;
@@ -97,6 +118,26 @@
     padding: 10px;
 }
 .mainContacto{
+    .botonn-w{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background-color: rgb(102, 230, 11);
+        text-align: center;
+        border-radius: 60px;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgb(18, 158, 11);
+        z-index: 100;
+        a{
+            color: rgba(0, 0, 0, 0.649);
+        }
+    }
+    .botonn-w:hover{
+        background-color: chartreuse;
+    }
     .boton{
         background-color: rgb(251, 164, 242);
         border-radius: 05px ;
