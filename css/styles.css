@@ -13,7 +13,7 @@
   border-radius: 70px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 900px) {
   header {
     height: 150px;
   }
@@ -36,6 +36,13 @@
 .mainInicio .botonn-w a {
   color: rgba(0, 0, 0, 0.649);
 }
+.mainInicio .texto {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 3;
+  text-shadow: 2px 2px 5px rgb(199, 85, 186);
+  text-align: center;
+}
 .mainInicio .botonn-w:hover {
   background-color: chartreuse;
 }
@@ -44,6 +51,11 @@
   width: 500px;
 }
 
+@media screen and (min-width: 1100px) {
+  .mainInicio .texto {
+    margin-top: 100px;
+  }
+}
 /*mainbandejaspersonalizadas*/
 .mainBandejasp {
   padding: 50px;

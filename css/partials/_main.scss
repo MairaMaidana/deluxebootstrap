@@ -17,6 +17,14 @@
             color: rgba(0, 0, 0, 0.649);
         }
     }
+    .texto{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 3;
+        text-shadow: 2px 2px 5px rgb(199, 85, 186);
+        text-align: center;
+       
+    }
     .botonn-w:hover{
         background-color: chartreuse;
     }
@@ -32,6 +40,15 @@
            
         }
     }
+}
+@media screen and (min-width: 1100px){
+    .mainInicio{
+        .texto{
+            margin-top: 100px;
+        }
+    
+    }
+    
 }
 
 /*mainbandejaspersonalizadas*/
@@ -83,7 +100,7 @@
     .card-body {
         h5{
             padding: 20px;
-            text-align: center;
+            text-align: center; 
             box-shadow: 0 4px 8px 0 rgba(226, 47, 188, 0.2), 0 6px 20px 0 rgba(205, 34, 156, 0.19);
         }
     }

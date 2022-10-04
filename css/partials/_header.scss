@@ -1,7 +1,7 @@
 /*headerprincipal*/
 .header{
     background-image: map-get( $color , colorPrimario) ;
-    width: 100%;
+    width: 100%; 
     .img{
         border-radius: map-get($border, borderRadius );
 
@@ -11,7 +11,7 @@
 
 
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 900px){
     header {
         height: 150px;
     }
