@@ -1,13 +1,10 @@
 .footer {
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    color: #000;
+    @extend %flexfooter ;
     background-image: map-get( $color , colorPrimario );
     div{
         a{
             text-decoration: none;
-            color: #000;
+            color: map-get($color, colorText );
             
         }
     
@@ -17,7 +14,7 @@
             list-style: none;
             a{
                 text-decoration: none;
-                color: #000;
+                color: map-get($color, colorText);
                 font-weight: bold;
             }
         }

@@ -7,7 +7,7 @@
 
     }
     .navPer{
-        border-bottom: 3px solid rgb(46, 3, 42);
+        border-bottom: map-get($border, borderBottom);
     }
 
 }

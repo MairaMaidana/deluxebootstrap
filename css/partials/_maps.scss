@@ -1,10 +1,17 @@
 $color:(
-    colorPrimario: linear-gradient(-225deg,#321575  0%, #8D0B93 50%,  #FF057C 100%) ,
-     
+    colorPrimario: linear-gradient(-225deg,#321575  0%, #8D0B93 50%,  #FF057C 100%) ,  
+    colorBox: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) , 
+    colorBoxcard: 0 4px 8px 0 rgba(226, 47, 188, 0.2), 0 6px 20px 0 rgba(205, 34, 156, 0.19) , 
+    colorText: #000 , 
+    colorTextshadow: 2px 2px 5px rgb(199, 85, 186) , 
+    colorCapa:  rgb(235, 149, 224 , 0.6) ,
+    colorBotonf: rgb(251, 164, 242) , 
 );
 $fonts:(
     fontsPrincipal: 20px ,
 );
 $border:(
     borderRadius: 70px , 
+    borderBottom: 3px solid rgb(46, 3, 42) , 
 );
+

@@ -1,6 +1,7 @@
-@mixin boton ($padding  , $borderColor, $borderRa ) {
-    padding: $padding ; /*10px*/
-    border: 1px solid $borderColor; /*colorTerciario*/
-    border-radius: $borderRa; /*9px*/
-    text-align: center;
+@mixin titulocontacto ( $margin , $textalign , $padding ){
+    margin: $margin;
+    text-align: $textalign;
+    padding: $padding;
+    box-shadow: map-get($color, colorBoxcard );
+    
 }
