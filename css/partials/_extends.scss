@@ -27,8 +27,8 @@
     width: 100%;
     height: 65%;
     position: absolute;
-    top: 0;
     background-color: map-get($color , colorCapa );
+    top: 0;
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
