@@ -1,3 +1,44 @@
+.footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+}
+
+.mainContacto .botonn-w, .mainBandejasp .botonn-w, .mainInicio .botonn-w {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(102, 230, 11);
+  text-align: center;
+  border-radius: 60px;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgb(18, 158, 11);
+  z-index: 100;
+}
+
+.mainBandejasp .card .capa {
+  font-weight: bold;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  background-color: rgba(235, 149, 224, 0.6);
+  top: 0;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainInicio .texto {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 3;
+  text-align: center;
+}
+
 .body {
   font-size: 20px;
   margin: 0;
@@ -16,7 +57,7 @@
   border-bottom: 3px solid rgb(46, 3, 42);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
   header {
     height: 150px;
   }
@@ -25,29 +66,11 @@
 .mainInicio {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.mainInicio .botonn-w {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  background-color: rgb(102, 230, 11);
-  text-align: center;
-  border-radius: 60px;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgb(18, 158, 11);
-  z-index: 100;
-}
 .mainInicio .botonn-w a {
-  color: rgba(0, 0, 0, 0.649);
+  color: #000;
 }
 .mainInicio .texto {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 3;
   text-shadow: 2px 2px 5px rgb(199, 85, 186);
-  text-align: center;
 }
 .mainInicio .botonn-w:hover {
   background-color: chartreuse;
@@ -57,28 +80,20 @@
   width: 500px;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 576px) {
+  .mainInicio {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) {
   .mainInicio .texto {
     margin-top: 100px;
   }
 }
+/*fin maininicio*/
 /*mainbandejaspersonalizadas*/
 .mainBandejasp {
   padding: 50px;
-}
-.mainBandejasp .botonn-w {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  background-color: rgb(102, 230, 11);
-  text-align: center;
-  border-radius: 60px;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgb(18, 158, 11);
-  z-index: 100;
 }
 .mainBandejasp .botonn-w a {
   color: rgba(0, 0, 0, 0.649);
@@ -94,17 +109,6 @@
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.mainBandejasp .card .capa {
-  font-weight: bold;
-  width: 100%;
-  height: 65%;
-  position: absolute;
-  top: 0;
-  background-color: rgba(235, 149, 224, 0.6);
-  transition: all 500ms ease-out;
-  opacity: 0;
-  visibility: hidden;
-}
 .mainBandejasp .card h5 {
   text-align: center;
 }
@@ -113,11 +117,6 @@
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(226, 47, 188, 0.2), 0 6px 20px 0 rgba(205, 34, 156, 0.19);
 }
-.mainBandejasp .botonn {
-  text-align: center;
-  border-radius: 8%;
-  border: 2px solid rgb(181, 23, 146);
-}
 
 @media screen and (min-width: 1100px) {
   .mainBandejasp .card .capa {
@@ -125,28 +124,14 @@
     height: 50%;
   }
 }
+/*fin mainbandejas*/
 /*maincontacto*/
 .titulo {
   margin: 20px;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(226, 47, 188, 0.2), 0 6px 20px 0 rgba(205, 34, 156, 0.19);
   padding: 10px;
 }
 
-.mainContacto .botonn-w {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  background-color: rgb(102, 230, 11);
-  text-align: center;
-  border-radius: 60px;
-  font-size: 30px;
-  box-shadow: 0px 1px 10px rgb(18, 158, 11);
-  z-index: 100;
-}
 .mainContacto .botonn-w a {
   color: rgba(0, 0, 0, 0.649);
 }
@@ -174,10 +159,6 @@
 }
 /*fin mainContacto*/
 .footer {
-  padding: 50px;
-  display: flex;
-  justify-content: space-around;
-  color: #000;
   background-image: linear-gradient(-225deg, #321575 0%, #8D0B93 50%, #FF057C 100%);
 }
 .footer div a {

@@ -1,6 +1,6 @@
 /*Maininicio*/
 .mainInicio {
-    box-shadow: map-get($color, colorBox );
+    box-shadow :0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)  ;
     .botonn-w{
        @extend %botonWt ;
         a{
@@ -26,10 +26,9 @@
 }
 @media screen and (min-width: 576px) {
     .mainInicio{
-        background-color: rgb(8, 5, 29);
+        text-align: center;
     }
 
-    
 }
 @media screen and (min-width: 992px){
     .mainInicio{
@@ -61,19 +60,20 @@
     }
     .card{
         cursor: pointer;
-        box-shadow: map-get($color, colorBox );
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)  ;
         .capa{
           @extend %capa;
         }
         h5{
             text-align: center;
+            
         }
     }
     .card-body {
         h5{
             padding: 20px;
             text-align: center; 
-            box-shadow: map-get($color, colorCapa);
+            box-shadow:0 4px 8px 0 rgba(226, 47, 188, 0.2), 0 6px 20px 0 rgba(205, 34, 156, 0.19)  ;
         }
     }
 
