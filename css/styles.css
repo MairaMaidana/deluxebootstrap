@@ -86,6 +86,10 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .mainInicio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .mainInicio .texto {
     margin-top: 100px;
   }
